@@ -1,0 +1,178 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/mferpena/Documentos/n-capas/Business/Business.csproj": {}
+  },
+  "projects": {
+    "/home/mferpena/Documentos/n-capas/Business/Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/mferpena/Documentos/n-capas/Business/Business.csproj",
+        "projectName": "Business",
+        "projectPath": "/home/mferpena/Documentos/n-capas/Business/Business.csproj",
+        "packagesPath": "/home/mferpena/.nuget/packages/",
+        "outputPath": "/home/mferpena/Documentos/n-capas/Business/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/mferpena/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/mferpena/Documentos/n-capas/Domain/Domain.csproj": {
+                "projectPath": "/home/mferpena/Documentos/n-capas/Domain/Domain.csproj"
+              },
+              "/home/mferpena/Documentos/n-capas/Persistence/Persistence.csproj": {
+                "projectPath": "/home/mferpena/Documentos/n-capas/Persistence/Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/253/sdk/6.0.428/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/mferpena/Documentos/n-capas/Domain/Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/mferpena/Documentos/n-capas/Domain/Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "/home/mferpena/Documentos/n-capas/Domain/Domain.csproj",
+        "packagesPath": "/home/mferpena/.nuget/packages/",
+        "outputPath": "/home/mferpena/Documentos/n-capas/Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/mferpena/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/253/sdk/6.0.428/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/mferpena/Documentos/n-capas/Persistence/Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/mferpena/Documentos/n-capas/Persistence/Persistence.csproj",
+        "projectName": "Persistence",
+        "projectPath": "/home/mferpena/Documentos/n-capas/Persistence/Persistence.csproj",
+        "packagesPath": "/home/mferpena/.nuget/packages/",
+        "outputPath": "/home/mferpena/Documentos/n-capas/Persistence/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/mferpena/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/mferpena/Documentos/n-capas/Domain/Domain.csproj": {
+                "projectPath": "/home/mferpena/Documentos/n-capas/Domain/Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/253/sdk/6.0.428/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

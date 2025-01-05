@@ -1,0 +1,67 @@
+# Archivos y carpetas de compilación
+bin/
+obj/
+
+# Configuración del entorno
+.env
+*.env
+
+# Configuración de usuario para Visual Studio
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Archivos generados por Rider
+.idea/
+*.iml
+
+# Configuración de VS Code
+.vscode/
+
+# Archivos de paquetes y dependencias
+*.nupkg
+*.snupkg
+packages/
+*.nuspec
+
+# Archivos de sistema y del editor
+*.DS_Store
+Thumbs.db
+
+# Archivos de logs y temporales
+*.log
+*.vs/
+*.vscode/
+
+# Archivos de publicación
+publish/
+out/
+
+# Configuración de Docker (si lo usas)
+docker-compose.override.yml
+docker-compose.override.yaml
+
+# Configuración de bases de datos locales
+*.db
+*.mdf
+*.ldf
+
+# Archivos de migraciones generados (opcional, depende de tu flujo de trabajo)
+Migrations/
+
+# Archivos secretos o sensibles
+secrets.json
+appsettings.*.json
+appsettings.Development.json
+
+# Generados por Entity Framework (opcional)
+*.Designer.cs
+
+# Archivos de pruebas (opcional, depende de tu configuración)
+TestResults/
+.trx
+
+# Otros archivos innecesarios
+*.swp
+*.bak
